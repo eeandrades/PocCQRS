@@ -18,7 +18,6 @@
     <ProjectReference Include="..\Aeon.Domain\Aeon.Domain.csproj" />
     <ProjectReference Include="..\Sales.Commands\Sales.Commands.csproj" />
     <ProjectReference Include="..\Sales.Core\Sales.Core.csproj" />
-    <ProjectReference Include="..\Sales.Entities\Sales.Entities.csproj" />
     <ProjectReference Include="..\Sales.Infra.DependencyInjection\Sales.Infra.DependencyInjection.csproj" />
   </ItemGroup>
 

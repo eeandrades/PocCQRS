@@ -16,7 +16,6 @@
     <ProjectReference Include="..\Sales.Applicaton\Sales.Application.csproj" />
     <ProjectReference Include="..\Sales.Commands\Sales.Commands.csproj" />
     <ProjectReference Include="..\Sales.Core\Sales.Core.csproj" />
-    <ProjectReference Include="..\Sales.Entities\Sales.Entities.csproj" />
     <ProjectReference Include="..\Sales.Repository\Sales.Repository.csproj" />
   </ItemGroup>
 

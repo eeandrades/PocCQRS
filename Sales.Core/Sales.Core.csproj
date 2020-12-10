@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Aeon.Domain\Aeon.Domain.csproj" />
-    <ProjectReference Include="..\Sales.Entities\Sales.Entities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
