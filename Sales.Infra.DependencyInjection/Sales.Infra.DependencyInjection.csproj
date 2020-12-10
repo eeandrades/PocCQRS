@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aeon.Domain\Aeon.Domain.csproj" />
+    <ProjectReference Include="..\Sales.Application.Core\Sales.Application.Core.csproj" />
+    <ProjectReference Include="..\Sales.Applicaton\Sales.Application.csproj" />
+    <ProjectReference Include="..\Sales.Commands\Sales.Commands.csproj" />
+    <ProjectReference Include="..\Sales.Core\Sales.Core.csproj" />
+    <ProjectReference Include="..\Sales.Entities\Sales.Entities.csproj" />
+    <ProjectReference Include="..\Sales.Repository\Sales.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

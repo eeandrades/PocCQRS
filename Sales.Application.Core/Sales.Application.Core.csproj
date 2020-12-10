@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Sales.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aeon.Core\Aeon.Core.csproj" />
+    <ProjectReference Include="..\Aeon.Domain\Aeon.Domain.csproj" />
+    <ProjectReference Include="..\Sales.Core\Sales.Core.csproj" />
+  </ItemGroup>
+
+</Project>

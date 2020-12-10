@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Sales.Repositories</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aeon.Domain\Aeon.Domain.csproj" />
+    <ProjectReference Include="..\Sales.Core\Sales.Core.csproj" />
+    <ProjectReference Include="..\Sales.Entities\Sales.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
